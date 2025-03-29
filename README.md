@@ -243,6 +243,9 @@ declare module '*.md' {
   // When "Mode.TOC" is requested
   const toc: { level: string, content: string }[];
 
+  // When "Mode.MARKDOWN" is requested
+  const markdown: string;
+
   // When "Mode.HTML" is requested
   const html: string;
 
